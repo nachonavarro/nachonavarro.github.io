@@ -1,0 +1,100 @@
+body, html {
+	padding: 0px;
+	margin: 0px;
+	background-color: white;
+	font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.no-padding {
+	padding: 0px;
+}
+
+.margin-top-10 {
+	margin-top: 10px;
+}
+
+.margin-top-20 {
+	margin-top: 20px;
+}
+
+.margin-top-30 {
+	margin-top: 30px;
+}
+
+.margin-top-50 {
+	margin-top: 50px;
+}
+
+
+.main {
+	margin-top: 50px;
+}
+
+.menu {
+	padding: 10px;
+}
+
+.menu li {
+	margin: 7px;
+}
+
+.fixed {
+	position: fixed;
+}
+
+.fa-ul li {
+	display: inline;
+}
+
+.brand {
+	height: 50px;
+	width: 80px;
+}
+
+/*Change icons size here*/
+.social-icons .fa {
+	font-size: 1.1em;
+}
+/*Change icons circle size and color here*/
+.social-icons .fa {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.8);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fa{ 
+	border-radius: 50%;
+}
+.social-icons.icon-rounded .fa{
+	border-radius:5px;
+}
+.social-icons.icon-flat .fa{
+	border-radius: 0;
+}
+
+.social-icons .fa:hover, .social-icons .fa:active {
+	color: #FFF;
+	-webkit-box-shadow: 1px 1px 3px #333;
+	-moz-box-shadow: 1px 1px 3px #333;
+	box-shadow: 1px 1px 3px #333; 
+}
+ 
+.social-icons .fa-apple{background-color:#aeb5c5;} 
+.social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{background-color:#070709;} 
+.social-icons .fa-envelope{background-color:#A1755C;}
+.social-icons .fa-linkedin,.social-icons .fa-linkedin-square{background-color:#0085AE;} 
+.social-icons .fa-stack-overflow{background-color:#FF7300;}
+
+@media screen and (max-width: 700px) {
+  .mobile {
+		position: relative;
+	}
+}
