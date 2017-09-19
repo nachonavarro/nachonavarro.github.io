@@ -21,10 +21,41 @@ body, html {
 	margin-top: 30px;
 }
 
+.margin-right-5 {
+	margin-right: 5px;
+}
+
+.margin-right-10 {
+	margin-right: 10px;
+}
+
+.jobs {
+  list-style-type: none;
+}
+
 .margin-top-50 {
 	margin-top: 50px;
 }
 
+.brand {
+  height: 24px;
+  width: 120px;
+}
+
+.brand-2 {
+  height: 40px;
+  width: 171px;
+}
+
+.brand-3 {
+  height: 40px;
+  width: 105px;
+}
+
+.brand-4 {
+  height: 23px;
+  width: 174px;
+}
 
 .main {
 	margin-top: 50px;
@@ -44,11 +75,6 @@ body, html {
 
 .fa-ul li {
 	display: inline;
-}
-
-.brand {
-	height: 50px;
-	width: 80px;
 }
 
 /*Change icons size here*/
