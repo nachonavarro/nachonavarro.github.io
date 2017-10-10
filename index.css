@@ -29,6 +29,26 @@ body, html {
 	margin-right: 10px;
 }
 
+#projects ul {
+	list-style-type: circle;
+}
+
+.available {
+	color: #00B200;
+}
+
+.ongoing {
+	color: #ffa30f;
+}
+
+.private {
+	color: #ff0000;
+}
+
+.popover{
+	max-width:600px;
+}
+
 .jobs {
   list-style-type: none;
 }
