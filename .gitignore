@@ -3,3 +3,5 @@ cv.aux
 cv.f*
 cv.tex
 cv.out
+cv.log
+images/.DS_Store
